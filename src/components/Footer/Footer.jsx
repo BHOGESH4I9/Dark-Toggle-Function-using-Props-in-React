@@ -3,9 +3,10 @@ import ThemeToggle from './ThemeToggle'
 
 const Footer = ({theme, setTheme}) => {
   return (
-    <div>
-        <h2>Foot section here props are assigning to Toggle Button</h2>
-        <ThemeToggle theme={theme} setTheme = {setTheme}/>
+    <div className="footer-section">
+      <h2 className="validation-message info">Theme Control Panel</h2>
+      <p>Click the button to switch themes.</p>
+      <ThemeToggle theme={theme} setTheme={setTheme}/>
     </div>
   )
 }
