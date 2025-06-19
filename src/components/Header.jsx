@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header Session</h1>
+    <div className="header-section">
+      <p className="validation-message info">Toggle between light and dark themes using the button below.</p>
     </div>
   )
 }
